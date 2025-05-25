@@ -4,14 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Login Instagram</title>
     <link rel="stylesheet" href="./css/style.min.css" />
   </head>
   <body>
-    <!-- header -->
-    <header></header>
-    <main></main>
-    <!-- footer -->
-    <footer></footer>
+    <main class="site__main container">
+      <header class="site__login__header">
+        <div class="site__login__content">
+          <img class="site__login__logo" src="./images/preview.png" alt="" />
+        </div>
+      </header>
+      <section class="site__section">
+        <div class="site__input">
+          <form class="site__login__input" action="">
+            <label for=""></label>
+            <input
+              class="site__login__username__input"
+              type="text"
+              placeholder="Phone number, username, or email"
+            />
+            <input
+              class="site__login__password"
+              type="password"
+              placeholder="Password"
+            />
+          </form>
+        </div>
+        <div class="site__main__btn">
+          <a class="site__btn btn" href="">Log in</a>
+        </div>
+        <div class="site__login__hr">
+          <hr class="site__login__hr__one" />
+          <p class="site__login__or">OR</p>
+          <hr class="site__login__hr__two" />
+        </div>
+        <div class="site__link__facebook">
+          <a
+            class="site__facebook__link"
+            href="https://www.facebook.com/oidc/?app_id=124024574287414&redirect_uri=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignupviafb%2F&response_type=code&scope=openid%20email%20profile%20linking&state=ATl43quWIbowpW7xN1Ssy2mqA0fGxUP39gw44GlUPaYPLdsDHVMxDdBJ6riSwFT9h6Az1VUJMojxVzKfYW6_01FcyeJuEZX_Fg8YUKk6aL8HyrtIjt7BMBpiILSCRqKT2SqLuiTrumQ1NknoRZOSc7-SFa5T8svDiZ75cJFJIV4s9lxqW1lOSKAxpRfKMzII0FE4D17HiFMXTZFDktu6rA2hgJuzjXyrgO1qQFeCMKI3DuICyqks-tl5MRZXZLAStbx5"
+          >
+            <img
+              class="site__facebook__logo"
+              src="./images/facebook.png"
+              alt=""
+            />
+            <p class="facebook__link__title">Log in with Facebook</p>
+          </a>
+        </div>
+        <div class="site__forgot__password">
+          <a class="forgot__password" href="">Forgot Password?</a>
+        </div>
+        <div class="site__signup__link">
+          <p class="signup__link">
+            Don't have an account?
+            <span class="sign__link"><a href=""> Sign up</a></span>
+          </p>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
